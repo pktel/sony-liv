@@ -1,0 +1,17 @@
+.main{
+    background-color:"inherit";
+    padding-top:10px;
+}
+
+.title{
+    margin-left:40px
+}
+
+@media screen and (max-width: 600px) {
+    h3 {
+      padding-top:10px;
+    }
+    .title{
+        margin-right: 160px;
+    }
+  }

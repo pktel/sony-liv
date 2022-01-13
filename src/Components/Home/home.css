@@ -1,0 +1,65 @@
+.imageStyle {
+    padding: 5px
+}
+
+/* .slick-prev{
+    left: 20px;
+    z-index: 1;
+    color:red;
+    
+}
+.slick-next {
+    right: 20px;
+    z-index: 1;
+    color:red;
+    
+} */
+
+.slick-prev:before {
+    font-family: 'slick';
+    font-size: 30px !important;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    margin-left: 20px !important;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 30px !important;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    margin-left: -45px !important;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.spinner-border {
+    color: rgb(185, 189, 192) !important;
+
+}
+
+@media screen and (max-width: 1040px) {
+
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+
+    .titleName {
+        font-size: medium;
+    }
+}

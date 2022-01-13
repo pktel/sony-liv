@@ -1,0 +1,39 @@
+.backtotop {
+    border-radius: 10%;
+    border: none;
+    color: rgb(20, 19, 19);
+    padding: 0px;
+    text-decoration: none;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    float: right;
+    background: inherit;
+
+}
+
+.container {
+    position: relative;
+}
+
+.showmore {
+    width:15%;
+    border-radius: 60px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#uparrow {
+    height: 40px;
+    width: 40px;
+    
+
+}
+
+.backtotop :hover {
+    box-shadow: 0 7px 7px rgb(68, 59, 59)
+}

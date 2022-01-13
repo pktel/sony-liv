@@ -1,0 +1,76 @@
+.index {
+    padding: 100px;
+    color: #555
+}
+
+input[type=email] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    height: 100%;
+    font-size: 1.375rem;
+    letter-spacing: 4px;
+    width: 40%;
+    padding: 0;
+    
+}
+
+
+.form-check-label{
+    max-width: 40%;
+}
+
+.form-group{
+    margin-right: auto;
+}
+
+form{
+    margin-bottom: 50px;
+}
+
+button {
+    width: 20%;
+}
+
+@media screen and (max-width: 600px) {
+    button {
+      width:60%;
+    }
+    .index{
+        padding:20px
+    }
+    .form-check-label{
+        max-width: 80%;
+    }
+  }
+
+.message {
+    color: #fff;
+}
+
+.mobileField {
+    height: 100%;
+    font-family: SFProText-Medium;
+    font-size: 1.375em;
+    letter-spacing: -.12px;
+    color: #fff;
+    background: #212121;
+    border: none;
+    padding: 0;
+    width: 60%;
+    border-style: none;
+    border-bottom: 1px solid #aaa;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+

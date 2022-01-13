@@ -1,0 +1,12 @@
+.imageStyle {
+    width: 50px;
+    height: 100px;
+}
+.slick-prev{
+    left: 10px;
+    z-index: 1;
+}
+.slick-next {
+    right: 10px;
+    z-index: 1;
+}

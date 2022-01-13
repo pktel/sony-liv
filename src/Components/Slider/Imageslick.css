@@ -1,0 +1,42 @@
+.imageStyle {
+    width: 100vw;
+}
+
+.slick-prev {
+    left: 10px !important;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 10px !important;
+    z-index: 1;
+}
+
+.slick-dots {
+    bottom: 15px !important;
+}
+
+
+
+.imageTop {
+    width: 100vw;
+}
+
+
+@media screen and (max-width: 960px) {
+    .imageTop {
+        width: 100%;
+        /* object-fit: cover; */
+        height: 60vh;
+    }
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .imageTop {
+        width: 100%;
+        /* object-fit: cover; */
+        height: 60vh;
+    }
+}

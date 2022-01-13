@@ -1,0 +1,47 @@
+h3{
+    padding-top: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.mobileField{
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: -.12px;
+    color: #fff;
+    background: #212121;
+    border: none;
+    padding: 0;
+    width: 250px !important;
+    border-style: none;
+    margin-bottom: 10px;
+}
+
+/* .line{
+   
+    border-bottom: 1px solid #aaa;
+    width: 200px ;
+} */
+
+textarea:focus, input:focus{
+    outline: none;
+}
+.sub{
+    margin-bottom: 40px;
+}
+
+.sub:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    margin-right: 10px;
+}
+.signin{
+    text-align: center;
+}
+#recaptcha{
+    visibility: hidden;
+}

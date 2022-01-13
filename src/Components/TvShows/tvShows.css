@@ -1,0 +1,37 @@
+.main{
+    background-color:"inherit";
+    padding-top:10px;
+}
+
+.title{
+    margin-left:40px
+}
+
+@media screen and (max-width: 600px) {
+    h3 {
+      padding-top:10px;
+    }
+    .title{
+        margin-right: 160px;
+    }
+    .showmore{
+        width:35% !important;
+        margin-right: 20px !important;
+       
+
+    }
+    #uparrow{
+        margin-left:100px !important;
+    }
+  }
+@media screen and (max-width: 900px) {
+    h3 {
+      padding-top:10px;
+    }
+    .title{
+        margin-right: 160px;
+    }
+    .showmore{
+        width:20px;
+    }
+  }

@@ -1,0 +1,26 @@
+.footer-background {
+    background-color:#181a1d;
+    color: #fff;
+    font-size: 14px;
+    padding: 17px;
+    padding-left: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  i {
+    color: #AAAAAA;
+    
+  }
+
+  .icons{
+     margin: 10px;
+  }
+
+  .footer-company-name{
+    opacity: 0.5;
+  }
+
+  strong{
+    margin-right: 10px;
+  }
